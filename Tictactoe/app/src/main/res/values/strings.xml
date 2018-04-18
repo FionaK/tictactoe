@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tictactoe</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="game_over">Game Over!</string>
+    <string name="score">Score</string>
+    <string name="scoreboard">score_preferences</string>
+    <string name="won_statX">wonx</string>
+    <string name="loss_statX">lossx</string>
+    <string name="tie_statX">tiex</string>
+    <string name="loss_statO">losso</string>
+    <string name="tie_statO">tieo</string>
+    <string name="won_statO">wono</string>
+</resources>

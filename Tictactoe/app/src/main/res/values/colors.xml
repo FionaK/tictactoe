@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bb531149</color>
+    <color name="colorPrimaryDark">#d630072a</color>
+    <color name="colorAccent">#0f0820</color>
+    <color name="board_background">#ffe6f0ff</color>
+    <color name="board_light">#64c6d4ef</color>
+    <color name="board_dark">#6456648f</color>
+    <color name="board_foreground">#ff000000</color>
+    <color name="board_hint_0">#8b1d1296</color>
+    <color name="board_selected">#64ff8000</color>
+</resources>

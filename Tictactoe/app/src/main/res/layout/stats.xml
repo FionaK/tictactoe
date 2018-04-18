@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/board_background"
+	android:gravity="center|center_horizontal">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center_horizontal">
+		<TextView
+			android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+			android:text="X Won:"
+			android:textSize="36sp"
+			android:layout_gravity="right"/>
+		<TextView android:id="@+id/won"
+			android:layout_width="wrap_content"
+			android:textSize="36sp" android:layout_gravity="left"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:gravity="center_horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:text="X Lost:"
+			android:layout_width="wrap_content"
+			android:textSize="36sp"
+			android:layout_height="wrap_content"/>
+		<TextView android:id="@+id/loss"
+			android:layout_width="wrap_content"
+			android:textSize="36sp"
+			android:layout_height="wrap_content"/>
+	</LinearLayout> 
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:text="X Tie:"
+			android:layout_width="wrap_content"
+			android:textSize="36sp"
+			android:layout_height="wrap_content"/>
+		<TextView android:id="@+id/tie"
+			android:layout_width="wrap_content"
+			android:textSize="36sp"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center_horizontal">
+		<TextView
+			android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+			android:text="O Won:"
+			android:textSize="36sp"
+			android:layout_gravity="right"/>
+		<TextView android:id="@+id/wonO"
+			android:layout_width="wrap_content"
+			android:textSize="36sp" android:layout_gravity="left"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:gravity="center_horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:text="O Lost:"
+			android:layout_width="wrap_content"
+			android:textSize="36sp"
+			android:layout_height="wrap_content"/>
+		<TextView android:id="@+id/lossO"
+			android:layout_width="wrap_content"
+			android:textSize="36sp"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:text="O Tie:"
+			android:layout_width="wrap_content"
+			android:textSize="36sp"
+			android:layout_height="wrap_content"/>
+		<TextView android:id="@+id/tieO"
+			android:layout_width="wrap_content"
+			android:textSize="36sp"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
